@@ -64,3 +64,5 @@ while node is not None:
 print 'shortest:'
 for node in costs:
 	print str(node) +':'+ str(costs[node])
+for n in parents:
+	print n +'	'+ parents[n]
